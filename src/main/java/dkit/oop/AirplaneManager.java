@@ -25,13 +25,22 @@ public class AirplaneManager {
 
     // write add() method
 
+    public void add(Airplane airplane){
+        airplaneList.add(airplane);
+    }
+
 
     public void displayAllAirplanes() {
-        // add code
+        for (Airplane a : airplaneList){
+            System.out.println(a.toString());
+        }
     }
 
     public void displayAllPassengerAirplanes() {
-        // add code
+
+        for (Airplane p : airplaneList){
+          // if ()
+        }
     }
 
     //  write method getAllCargoAirplanes()
