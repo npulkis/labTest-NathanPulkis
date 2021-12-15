@@ -39,7 +39,7 @@ public class AirplaneManager {
     public void displayAllPassengerAirplanes() {
 
         for (Airplane p : airplaneList){
-          // if ()
+            System.out.println(p);
         }
     }
 
@@ -48,11 +48,30 @@ public class AirplaneManager {
 
     // write  addPassengerNameToAirplane( airplaneId, passengerName)
 
+    public boolean addPassengerNameToAirplane(int airplaneId, String passengerName){
+
+        for (int i=0;i<airplaneList.size();i++){
+           if (airplaneList.get(i).getId()==airplaneId){
+
+           }
+        }
+   return true; }
 
     // write containsAirplane( Airplane plane )
+    public boolean containsAirplane(Airplane plane){
+        for (Airplane a: airplaneList){
+            if (a.equals(plane)){
+                return true;
+            }
+        }
+   return false ;}
 
 
     // write findAirplaneByPassengerName( passengerName )
+
+//    public Airplane findAirplaneByPassengerName( String passengerName ){
+//
+//    }
 
     // write displayAllAirplanesInOrderOfType( argument )
 

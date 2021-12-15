@@ -52,6 +52,19 @@ public class App
 
         System.out.println("\n display passenger planes");
 
+        mgr.displayAllPassengerAirplanes();
+
+
+        System.out.println("Q3.7");
+
+        boolean check = mgr.containsAirplane(passengerPlane1);
+
+        if (check){
+            System.out.println("plane found");
+        }else {
+            System.out.println("plane found");
+        }
+
 
         //Question 4
         // Uncomment all the code below and implement the two methods
