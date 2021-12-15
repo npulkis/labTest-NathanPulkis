@@ -20,8 +20,7 @@ public class PassengerAirplane  extends Airplane {
     public void addPassenger(String name) {
         // code here
 
-            this.passengerList.add(name);
-
+        this.passengerList.add(name);
 
 
     }

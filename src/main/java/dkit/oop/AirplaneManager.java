@@ -36,12 +36,12 @@ public class AirplaneManager {
         }
     }
 
-    public void displayAllPassengerAirplanes() {
-
-        for (Airplane p : airplaneList){
-            System.out.println(p);
-        }
-    }
+//    public void displayAllPassengerAirplanes() {
+//
+//        for (PassengerAirplane p : airplaneList){
+//            System.out.println(p);
+//        }
+//    }
 
     //  write method getAllCargoAirplanes()
 
@@ -52,6 +52,7 @@ public class AirplaneManager {
 
         for (int i=0;i<airplaneList.size();i++){
            if (airplaneList.get(i).getId()==airplaneId){
+               airplaneList.get(i);
 
            }
         }
